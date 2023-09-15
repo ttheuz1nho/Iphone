@@ -26,12 +26,20 @@ section#celular{
     transform: translate(-50%, -50%);
 }
 
-/*COLOCAR A TELA NO CELULAR*/ 
+/*TELA DO CELULAR*/ 
 
 section > iframe#tela{
-    
+    background-image: url(../pags/pag001.html);
+    position: relative;
+    width: 266px;
+    height: 470px;
+    top: 79.5px;
+    left: 20px;
 }
 
+/*BOTÕES DO APP*/
 
-
-/*COLOCAR OS APPS NO LADO DIREITO*/
+section#click a > img{
+    border-radius: 50%;
+    
+}
