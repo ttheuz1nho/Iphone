@@ -39,7 +39,20 @@ section > iframe#tela{
 
 /*BOTÕES DO APP*/
 
-section#click a > img{
+section#click{
+    text-align: right; /* alinhamento para direit */ 
+}
+
+section#click img{
     border-radius: 50%;
-    
+    width: 50px;
+    margin: 10px;
+    box-shadow: 1px 1px 7px black;
+    box-sizing: border-box;
+}
+
+section#click img:hover{
+    border: 1.3px solid white;
+    transform: translate(-5px, -5px);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.74);
 }
