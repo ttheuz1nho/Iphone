@@ -8,6 +8,7 @@
 html, body{
     background-image: url(../imagens/fundo-madeira.jpg);
     height: 100vh;
+    background-repeat: no-repeat;
 }
 
 main{
